@@ -1,0 +1,14 @@
+{
+  "name": "nfl-design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/gulp"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "opn": "^5.0.0"
+  }
+}

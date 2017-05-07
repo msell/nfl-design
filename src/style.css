@@ -1,0 +1,281 @@
+body {
+  background-color: #424140;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #222;
+  max-width: 620px;
+}
+
+.picks {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 3px;
+  margin-top: 5px;
+  border-top: 1px solid white;
+  width: 600px;
+}
+.home {
+  text-align: flex-end;
+}
+
+.record {
+  color: #81807F;
+}
+
+.away {
+  text-align: flex-start;
+}
+.score {
+  height: 135px;
+  width: 155px;
+  text-align: center;
+  font-size: x-large;
+}
+.team-info {
+  padding: 5px;
+  align-self: center;
+}
+.over-under {
+  width: 330px;
+  text-align: center;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+}
+
+.at {
+  font-size: xx-large;
+  margin-top: auto;
+  align-self: center;
+}
+
+.gametime {
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.away-pick {
+  width: 135px;
+  align-content: flex-end;
+}
+.home-pick {
+  width: 135px;
+}
+.visitor-helmet {
+
+}
+
+.home-helmet {
+
+}
+
+.ATL-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/ATL.png);
+}
+.BAL-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/BAL.png);
+}
+.BUF-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/BUF.png);
+}
+.CAR-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/CAR.png);
+}
+.CHI-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/CHI.png);
+}
+.CIN-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/CIN.png);
+}
+.CLE-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/CLE.png);
+}
+.DAL-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/DAL.png);
+}
+.DEN-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/DEN.png);
+}
+.DET-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/DET.png);
+}
+.GB-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/GB.png);
+}
+.TEN-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/TEN.png);
+}
+.HOU-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/HOU.png);
+}
+.IND-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/IND.png);
+}
+.JAC-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/JAC.png);
+}
+.JAX-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/JAC.png);
+}
+.KC-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/KC.png);
+}
+.LA-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/STL.png);
+}
+.OAK-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/OAK.png);
+}
+.MIA-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/MIA.png);
+}
+.MIN-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/MIN.png);
+}
+.NE-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/NE.png);
+}
+.NO-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/NO.png);
+}
+.NYG-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/NYG.png);
+}
+.NYJ-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/NYJ.png);
+}
+.PHI-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/PHI.png);
+}
+.ARI-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/ARI.png);
+}
+.PIT-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/PIT.png);
+}
+.SD-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/SD.png);
+}
+.SF-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/SF.png);
+}
+.SEA-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/SEA.png);
+}
+.TB-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/TB.png);
+}
+.WAS-away {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-left-155x139/WAS.png);
+}
+.ATL-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/ATL.png);
+}
+.BAL-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/BAL.png);
+}
+.BUF-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/BUF.png);
+}
+.CAR-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/CAR.png);
+}
+.CHI-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/CHI.png);
+}
+.CIN-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/CIN.png);
+}
+.CLE-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/CLE.png);
+}
+.DAL-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/DAL.png);
+}
+.DEN-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/DEN.png);
+}
+.DET-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/DET.png);
+}
+.GB-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/GB.png);
+}
+.TEN-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/TEN.png);
+}
+.HOU-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/HOU.png);
+}
+.IND-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/IND.png);
+}
+.JAC-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/JAC.png);
+}
+.JAX-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/JAC.png);
+}
+.KC-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/KC.png);
+}
+.LA-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/STL.png);
+}
+.OAK-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/OAK.png);
+}
+.MIA-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/MIA.png);
+}
+.MIN-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/MIN.png);
+}
+.NE-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/NE.png);
+}
+.NO-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/NO.png);
+}
+.NYG-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/NYG.png);
+}
+.NYJ-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/NYJ.png);
+}
+.PHI-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/PHI.png);
+}
+.ARI-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/ARI.png);
+}
+.PIT-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/PIT.png);
+}
+.SD-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/SD.png);
+}
+.SF-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/SF.png);
+}
+.SEA-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/SEA.png);
+}
+.TB-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/TB.png);
+}
+.WAS-home {
+  background-image: url(http://s.nflcdn.com/static/site/img/logos/helmet-right-155x139/WAS.png);
+}
